@@ -20,7 +20,7 @@ if user_input:
     st.session_state.chat.append(("user", user_input))
 
     try:
-        res = requests.post("http://localhost:8000/chat", json={
+        res = requests.post("https://tailortalk-assignment-mns7.onrender.com", json={
             "message": user_input,
             "session_id": st.session_state.session_id
         })
