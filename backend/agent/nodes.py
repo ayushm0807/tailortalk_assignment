@@ -3,7 +3,7 @@ import dateparser
 from datetime import datetime, timedelta
 from typing import TypedDict
 
-from backend.gcalendar.google_calender import check_availability, create_event
+from gcalendar.google_calender import check_availability, create_event
 
 class BookingState(TypedDict):
     input: str

@@ -1,7 +1,7 @@
 from langgraph.graph import StateGraph
 from typing import TypedDict
 
-from backend.agent.nodes import greet, ask_slot_info, check_calendar, book_slot
+from agent.nodes import greet, ask_slot_info, check_calendar, book_slot
 
 # Define schema
 class BookingState(TypedDict):
